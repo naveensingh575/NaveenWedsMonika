@@ -24,14 +24,14 @@ export default function GallerySection({ customCouplePhoto, t }) {
       title: 'Bride Manisha Haldi Ceremony',
       subtitle: 'Turmeric Ubtan & Traditional Rituals',
       src: '/assets/doodles/haldi.jpg',
-      tag: '19 Nov • Bride Haldi',
+      tag: '16 Nov • Bride Haldi',
     },
     {
       id: 'bride_mehendi',
       title: 'Bride Manisha Mehendi Art',
       subtitle: 'Bridal Henna & Wedding Festivities',
       src: '/assets/doodles/bride_mahendi.png',
-      tag: '19 Nov • Bride Mehendi',
+      tag: '18 Nov • Bride Mehendi',
     },
   ];
 

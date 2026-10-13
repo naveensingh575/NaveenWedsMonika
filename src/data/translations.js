@@ -149,12 +149,12 @@ export const translations = {
       balSandesh: {
         badge: "Child's Loving Invitation",
         quote: "Please do come to our dear Bua Ji / Masi Ji Manisha's wedding without fail!",
-        children: "Aarav & Diya",
+        children: "Aavni, Pridhi & Navnita",
       },
       events: [
         {
-          date: "17 November 2026",
-          day: "Tuesday",
+          date: "16 November 2026",
+          day: "Monday",
           title: "Ban & Haldi Ceremony",
           doodle: "/assets/doodles/haldi.jpg",
           time: "10:15 AM Onwards",
@@ -429,12 +429,12 @@ export const translations = {
       balSandesh: {
         badge: "बाल संदेश एवं बाल मनुहार",
         quote: "हमारी प्यारी बुआ जी / मौसी जी मनीषा के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
-        children: "आरव एवं दीया",
+        children: "आवनि, प्रिधि एवं नवनीता",
       },
       events: [
         {
-          date: "17 नवंबर 2026",
-          day: "मंगलवार",
+          date: "16 नवंबर 2026",
+          day: "सोमवार",
           title: "बाण एवं हल्दी रस्म",
           doodle: "/assets/doodles/haldi.jpg",
           time: "प्रातः 10:15 बजे से",
@@ -709,12 +709,12 @@ export const translations = {
       balSandesh: {
         badge: "बाल संदेश एवं मनुहार",
         quote: "मारी प्यारी बुआ जी / मौसी जी मनीषा के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
-        children: "आरव अर दीया",
+        children: "आवनि, प्रिधि अर नवनीता",
       },
       events: [
         {
-          date: "17 नवंबर 2026",
-          day: "मंगलवार",
+          date: "16 नवंबर 2026",
+          day: "सोमवार",
           title: "बाण अर हल्दी रस्म",
           doodle: "/assets/doodles/haldi.jpg",
           time: "तड़के 10:15 बजे ते",
