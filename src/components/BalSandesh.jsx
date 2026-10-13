@@ -20,7 +20,7 @@ export default function BalSandesh({ t, customData }) {
         {/* Quote Message */}
         <div className="my-2 max-w-2xl">
           <p className="font-hindi text-2xl sm:text-3xl font-extrabold text-[var(--text-primary)] leading-snug">
-            "{data.quote || "मेले प्यारे मामाजी नवीन के ब्याह में जलूल-जलूल (ज़रूर) आणा!"}"
+            "{data.quote || "मेले प्यारे मामा/ताऊ/चाचा जी नवीन के ब्याह में जलूल-जलूल (ज़रूर) आणा!"}"
           </p>
         </div>
 
@@ -28,7 +28,7 @@ export default function BalSandesh({ t, customData }) {
         <div className="mt-5 pt-4 border-t border-[var(--border-gold)] flex items-center justify-center space-x-3">
           <span className="text-lg">👦</span>
           <span className="font-serif text-base sm:text-lg font-bold text-[var(--accent-primary)]">
-            {data.children || "वेदांत एवं शिवांश"}
+            {data.children || "वेदांत, शिवांश, नक्श एवं विनया"}
           </span>
           <span className="text-lg">🎈</span>
         </div>

@@ -51,8 +51,8 @@ export const translations = {
       countdownHeading: "Countdown to Shubh Vivah — 20 November 2026",
       balSandesh: {
         badge: "Kid's Special Invitation",
-        quote: "Please do come to our dear Mama Ji Naveen's wedding without fail!",
-        children: "Vedant & Shivansh",
+        quote: "Please do come to our dear Mama/Tau/Chacha Ji Naveen's wedding without fail!",
+        children: "Vedant, Shivansh, Naksh and Vinaya",
       },
       events: [
         {
@@ -331,8 +331,8 @@ export const translations = {
       countdownHeading: "शुभ विवाह उल्टी गिनती — 20 नवंबर 2026",
       balSandesh: {
         badge: "बाल संदेश एवं बाल हठ",
-        quote: "मेले प्यारे मामाजी नवीन के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
-        children: "वेदांत एवं शिवांश",
+        quote: "मेले प्यारे मामा/ताऊ/चाचा जी नवीन के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
+        children: "वेदांत, शिवांश, नक्श एवं विनया",
       },
       events: [
         {
@@ -611,8 +611,8 @@ export const translations = {
       countdownHeading: "ब्याह के दिन बचे सैं — 20 नवंबर 2026",
       balSandesh: {
         badge: "बाल संदेश एवं बाल हठ",
-        quote: "मेले प्यारे मामाजी नवीन के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
-        children: "वेदांत एवं शिवांश",
+        quote: "मेले प्यारे मामा/ताऊ/चाचा जी नवीन के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
+        children: "वेदांत, शिवांश, नक्श अर विनया",
       },
       events: [
         {
