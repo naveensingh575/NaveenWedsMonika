@@ -3,11 +3,11 @@
 export const translations = {
   en: {
     brandTitle: "Wedding Invitation",
-    coupleHeader: "Naveen Luhach ❤️ Manisha Sheoran",
-    hashtag: "#Navisha",
+    coupleHeader: "Naveen Luhach ❤️ Monika Sheoran",
+    hashtag: "#Navika",
     portal: {
       tagline: "Vedic & Haryanvi Royal Wedding",
-      heading: "Naveen & Manisha",
+      heading: "Naveen & Monika",
       subheading: "Celebrate the sacred union of two hearts and families on 20th November 2026",
       selectPrompt: "Please choose your invitation side to view personalized programs & details:",
       groomCard: {
@@ -47,7 +47,7 @@ export const translations = {
       inviterSub: "Vill. Nandha Ki Dhani, Post & Tehsil Badhra, Distt. Charkhi Dadri (Haryana)",
       lineage: "Grandson of Smt. Chardro Devi & Late Shri Shiv Narayan | Son of Smt. Sunita Devi & Capt. Satyavir Singh",
       heroHeading: "Naveen Wedding Celebration",
-      heroSubheading: "With the divine blessings of Almighty & elders, we cordially invite you to the wedding ceremony of Naveen Luhach & Manisha Sheoran (Groom's Side View)",
+      heroSubheading: "With the divine blessings of Almighty & elders, we cordially invite you to the wedding ceremony of Naveen Luhach & Monika Sheoran (Groom's Side View)",
       countdownHeading: "Countdown to Shubh Vivah — 20 November 2026",
       balSandesh: {
         badge: "Kid's Special Invitation",
@@ -82,8 +82,8 @@ export const translations = {
           doodle: "/assets/doodles/lagan.svg?v=20260916c",
           time: "11:15 AM Bhaat | 05:15 PM Lagan",
           location: "Nandha ki Dhani, Badhra",
-          highlight: "Chi. Naveen weds Ku. Manisha",
-          description: "Grand welcome of Maternal Family with Desi Ghee Bhaat feast, followed by sacred Lagan Patrika reading for Chi. Naveen Luhach weds Ku. Manisha Sheoran.",
+          highlight: "Chi. Naveen weds Ku. Monika",
+          description: "Grand welcome of Maternal Family with Desi Ghee Bhaat feast, followed by sacred Lagan Patrika reading for Chi. Naveen Luhach weds Ku. Monika Sheoran.",
         },
         {
           date: "20 November 2026",
@@ -139,8 +139,8 @@ export const translations = {
       inviter: "Shri Jagvir Singh Sheoran & Sheoran Family",
       inviterSub: "Arya Nagar, Post & Tehsil Badhra, Distt. Charkhi Dadri (Haryana)",
       lineage: "Granddaughter of Late Smt. Samjo & Late Shri Lachhi Ram | Daughter of Smt. Saroj Devi & Shri Jagvir Singh Sheoran",
-      heroHeading: "Manisha Wedding Celebration",
-      heroSubheading: "With the divine blessings of Almighty & elders, we cordially invite you to the wedding ceremony of Ku. Manisha Sheoran with Chi. Naveen Luhach (Bride's Side View)",
+      heroHeading: "Monika Wedding Celebration",
+      heroSubheading: "With the divine blessings of Almighty & elders, we cordially invite you to the wedding ceremony of Ku. Monika Sheoran with Chi. Naveen Luhach (Bride's Side View)",
       countdownHeading: "Countdown to Shubh Vivah — 20 November 2026",
       venueCard: {
         title: "Aryanagar",
@@ -148,7 +148,7 @@ export const translations = {
       },
       balSandesh: {
         badge: "Child's Loving Invitation",
-        quote: "Please do come to our dear Bua Ji / Masi Ji Manisha's wedding without fail!",
+        quote: "Please do come to our dear Bua Ji / Masi Ji Monika's wedding without fail!",
         children: "Aavni, Pridhi & Navnita",
       },
       events: [
@@ -159,8 +159,8 @@ export const translations = {
           doodle: "/assets/doodles/haldi.jpg",
           time: "10:15 AM Onwards",
           location: "Bride's House, Arya Nagar, Tehsil Badhra",
-          highlight: "Bride Manisha's Haldi & Ubtan Application",
-          description: "Auspicious turmeric application on Bride Manisha Sheoran, traditional Ban songs by maternal aunts and elders with fragrant rose petals.",
+          highlight: "Bride Monika's Haldi & Ubtan Application",
+          description: "Auspicious turmeric application on Bride Monika Sheoran, traditional Ban songs by maternal aunts and elders with fragrant rose petals.",
         },
         {
           date: "18 November 2026",
@@ -170,7 +170,7 @@ export const translations = {
           time: "04:15 PM Onwards",
           location: "Arya Nagar, Tehsil Badhra",
           highlight: "Dark Henna Design & Sangeet Dance",
-          description: "Bridal henna celebration with intricate artistic patterns for bride Manisha, followed by joyful sangeet dance and traditional dholak beats.",
+          description: "Bridal henna celebration with intricate artistic patterns for bride Monika, followed by joyful sangeet dance and traditional dholak beats.",
         },
         {
           date: "20 November 2026",
@@ -197,7 +197,7 @@ export const translations = {
         {
           title: "Bride's Haldi & Auspicious Ban",
           origin: "Vedic Beauty & Bridal Blessings",
-          story: "Ban and Haldi signify the inner and outer radiance of bride Manisha. Scented turmeric, sandalwood, and floral essences are applied by sisters and aunts while showering her with blessings for happiness, prosperity, and marital bliss.",
+          story: "Ban and Haldi signify the inner and outer radiance of bride Monika. Scented turmeric, sandalwood, and floral essences are applied by sisters and aunts while showering her with blessings for happiness, prosperity, and marital bliss.",
           significance: "Bridal glow, spiritual purity, and loving family blessings.",
         },
         {
@@ -209,13 +209,13 @@ export const translations = {
         {
           title: "Maternal Bhaat & Sacred Mandap Pujan",
           origin: "Sacred Maternal Bond of Narsi Bhaat",
-          story: "Maternal uncles bring blessings, auspicious garments, and ornaments for their niece Manisha. The family honors maternal uncles with traditional reverence and conducts the sacred Mandap Pujan rituals.",
+          story: "Maternal uncles bring blessings, auspicious garments, and ornaments for their niece Monika. The family honors maternal uncles with traditional reverence and conducts the sacred Mandap Pujan rituals.",
           significance: "Maternal pride, family unity, and sacred wedding preparation.",
         },
         {
           title: "Barat Reception, Jaimala & Holy Pheras",
           origin: "Vedic Panigrahana & Seven Lifetimes Vows",
-          story: "The bride's family warmly welcomes groom Naveen and his family with flower showers and aarti. Bride Manisha steps into the Mandap for the divine exchange of garlands (Jaimala) followed by the sacred Seven Vows around Agni Dev.",
+          story: "The bride's family warmly welcomes groom Naveen and his family with flower showers and aarti. Bride Monika steps into the Mandap for the divine exchange of garlands (Jaimala) followed by the sacred Seven Vows around Agni Dev.",
           significance: "Sacred union of souls, dharma, and everlasting companionship.",
         },
       ],
@@ -258,7 +258,7 @@ export const translations = {
     gallery: {
       badge: "AI Doodles & Memory Gallery",
       heading: "AI Doodle & Wedding Gallery",
-      subheading: "Custom Haryanvi AI Doodles & Couple Portraits for Naveen & Manisha (#Navisha). You can also upload your own memories!",
+      subheading: "Custom Haryanvi AI Doodles & Couple Portraits for Naveen & Monika (#Navika). You can also upload your own memories!",
       shareTitle: "Share Your Photos & Memories",
       shareDesc: "Upload couple photos or event memories to preview in the gallery",
       uploadBtn: "Upload Photos",
@@ -271,7 +271,7 @@ export const translations = {
     wishes: {
       badge: "Blessings & Wishes Wall",
       heading: "Guestbook & Blessings",
-      subheading: "Leave your warm wishes and blessings for Groom Naveen & Bride Manisha",
+      subheading: "Leave your warm wishes and blessings for Groom Naveen & Bride Monika",
       formTitle: "Send Your Blessings",
       formDesc: "Your heartfelt message will appear on the wedding wall",
       nameLabel: "Your Name *",
@@ -283,11 +283,11 @@ export const translations = {
 
   hi: {
     brandTitle: "विवाह आमंत्रण",
-    coupleHeader: "नवीन लुहाच ❤️ मनीषा श्योराण",
-    hashtag: "#Navisha",
+    coupleHeader: "नवीन लुहाच ❤️ मोनिका श्योराण",
+    hashtag: "#Navika",
     portal: {
       tagline: "वैदिक एवं हरियाणवी पावन विवाह",
-      heading: "नवीन संग मनीषा",
+      heading: "नवीन संग मोनिका",
       subheading: "दो परिवारों एवं हृदयों के पावन मिलन समारोह में आपका सहर्ष स्वागत है — 20 नवंबर 2026",
       selectPrompt: "कृपया व्यक्तिगत कार्यक्रम व विवरण देखने हेतु पक्ष का चयन करें:",
       groomCard: {
@@ -327,7 +327,7 @@ export const translations = {
       inviterSub: "ग्राम नांधा की ढाणी, पो. व तहसील बाढड़ा, जिला चरखी दादरी (हरियाणा)",
       lineage: "पौत्र: श्रीमती चंदरों देवी एवं स्व. श्री शिव नारायण | सुपुत्र: श्रीमती सुनीता देवी एवं कैप्टन सत्यवीर सिंह",
       heroHeading: "नवीन शुभ विवाह समारोह (वर पक्ष)",
-      heroSubheading: "ईश्वर की असीम अनुकंपा एवं बुजुर्गों के आशीर्वाद से हमारे सुपुत्र नवीन लुहाच संग मनीषा के विवाह उत्सव में आप सादर आमंत्रित हैं",
+      heroSubheading: "ईश्वर की असीम अनुकंपा एवं बुजुर्गों के आशीर्वाद से हमारे सुपुत्र नवीन लुहाच संग मोनिका के विवाह उत्सव में आप सादर आमंत्रित हैं",
       countdownHeading: "शुभ विवाह उल्टी गिनती — 20 नवंबर 2026",
       balSandesh: {
         badge: "बाल संदेश एवं बाल हठ",
@@ -362,8 +362,8 @@ export const translations = {
           doodle: "/assets/doodles/lagan.svg?v=20260916c",
           time: "भात: प्रातः 11:15 बजे | लग्न: सायं 05:15 बजे",
           location: "नांधा की ढाणी, बाढड़ा",
-          highlight: "चि. नवीन संग कु. मनीषा",
-          description: "ननिहाल पक्ष का भव्य देसी घी भात स्वागत, तत्पश्चात चि. नवीन लुहाच संग कु. मनीषा श्योराण की शुभ लग्न पत्रिका पठन एवं तिलक समारोह।",
+          highlight: "चि. नवीन संग कु. मोनिका",
+          description: "ननिहाल पक्ष का भव्य देसी घी भात स्वागत, तत्पश्चात चि. नवीन लुहाच संग कु. मोनिका श्योराण की शुभ लग्न पत्रिका पठन एवं तिलक समारोह।",
         },
         {
           date: "20 नवंबर 2026",
@@ -419,8 +419,8 @@ export const translations = {
       inviter: "श्री जगवीर सिंह श्योराण एवं समस्त श्योराण परिवार",
       inviterSub: "आर्य नगर, पो. व तहसील बाढड़ा, जिला चरखी दादरी (हरियाणा)",
       lineage: "पौत्री: स्व. श्रीमती समजो एवं स्व. श्री लच्छी राम | सुपुत्री: श्रीमती सरोज देवी एवं श्री जगवीर सिंह श्योराण",
-      heroHeading: "मनीषा शुभ विवाह समारोह (वधू पक्ष)",
-      heroSubheading: "ईश्वर की असीम अनुकंपा एवं बुजुर्गों के आशीर्वाद से हमारी सुपुत्री मनीषा श्योराण संग चि. नवीन लुहाच के पावन परिणय उत्सव में आप सादर आमंत्रित हैं",
+      heroHeading: "मोनिका शुभ विवाह समारोह (वधू पक्ष)",
+      heroSubheading: "ईश्वर की असीम अनुकंपा एवं बुजुर्गों के आशीर्वाद से हमारी सुपुत्री मोनिका श्योराण संग चि. नवीन लुहाच के पावन परिणय उत्सव में आप सादर आमंत्रित हैं",
       countdownHeading: "शुभ विवाह उल्टी गिनती — 20 नवंबर 2026",
       venueCard: {
         title: "आर्यनगर (Aryanagar)",
@@ -428,7 +428,7 @@ export const translations = {
       },
       balSandesh: {
         badge: "बाल संदेश एवं बाल मनुहार",
-        quote: "हमारी प्यारी बुआ जी / मौसी जी मनीषा के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
+        quote: "हमारी प्यारी बुआ जी / मौसी जी मोनिका के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
         children: "आवनि, प्रिधि एवं नवनीता",
       },
       events: [
@@ -439,8 +439,8 @@ export const translations = {
           doodle: "/assets/doodles/haldi.jpg",
           time: "प्रातः 10:15 बजे से",
           location: "वधू गृह, आर्य नगर, तहसील बाढड़ा",
-          highlight: "वधू मनीषा का हल्दी-उबटन एवं बाण रस्म",
-          description: "वधू मनीषा श्योराण को सुहागिनों द्वारा शगुन की हल्दी व उबटन लगाने की पावन रस्म, लोकगीतों व मंगल आशीषों के साथ।",
+          highlight: "वधू मोनिका का हल्दी-उबटन एवं बाण रस्म",
+          description: "वधू मोनिका श्योराण को सुहागिनों द्वारा शगुन की हल्दी व उबटन लगाने की पावन रस्म, लोकगीतों व मंगल आशीषों के साथ।",
         },
         {
           date: "18 नवंबर 2026",
@@ -449,8 +449,8 @@ export const translations = {
           doodle: "/assets/doodles/bride_mahendi.png",
           time: "सायंकाल 04:15 बजे से",
           location: "आर्य नगर, तहसील बाढड़ा",
-          highlight: "वधू मनीषा के हाथों में गाढ़ी मेहंदी एवं संगीत",
-          description: "वधू मनीषा के हाथों में शगुन की सुहाग मेहंदी रचाई जाएगी, ताई-चाचियों द्वारा ढोलक पर बन्नी गीत एवं उल्लासपूर्ण नृत्य।",
+          highlight: "वधू मोनिका के हाथों में गाढ़ी मेहंदी एवं संगीत",
+          description: "वधू मोनिका के हाथों में शगुन की सुहाग मेहंदी रचाई जाएगी, ताई-चाचियों द्वारा ढोलक पर बन्नी गीत एवं उल्लासपूर्ण नृत्य।",
         },
         {
           date: "20 नवंबर 2026",
@@ -489,7 +489,7 @@ export const translations = {
         {
           title: "ननिहाल भात एवं मंडप पूजन",
           origin: "मामा का दुलार एवं कुल प्रतिष्ठा",
-          story: "मामा जी अपनी भांजी मनीषा के लिए स्नेह रूपी भात और आशीर्वाद लाते हैं। रेशमी चुनरी ओढ़ाकर ननिहाल पक्ष परिवार के गौरव को शिखर पर पहुंचाता है और मंडप पूजन संपन्न होता है।",
+          story: "मामा जी अपनी भांजी मोनिका के लिए स्नेह रूपी भात और आशीर्वाद लाते हैं। रेशमी चुनरी ओढ़ाकर ननिहाल पक्ष परिवार के गौरव को शिखर पर पहुंचाता है और मंडप पूजन संपन्न होता है।",
           significance: "मातृकुल का गौरव, आत्मीयता एवं मंगल कामना।",
         },
         {
@@ -538,7 +538,7 @@ export const translations = {
     gallery: {
       badge: "एआई डूडल एवं फोटो गैलरी",
       heading: "एआई डूडल एवं विवाह गैलरी",
-      subheading: "नवीन एवं मनीषा (#Navisha) के विवाह हेतु विशेष हरियाणवी एआई डूडल। आप भी अपनी यादें यहाँ अपलोड कर सकते हैं!",
+      subheading: "नवीन एवं मोनिका (#Navika) के विवाह हेतु विशेष हरियाणवी एआई डूडल। आप भी अपनी यादें यहाँ अपलोड कर सकते हैं!",
       shareTitle: "अपनी यादें व फोटो साझा करें",
       shareDesc: "गैलरी में देखने हेतु अपनी पसंदीदा तस्वीरें अपलोड करें",
       uploadBtn: "तस्वीरें अपलोड करें",
@@ -551,7 +551,7 @@ export const translations = {
     wishes: {
       badge: "शुभकामना संदेश दीवार",
       heading: "अतिथि पुस्तिका एवं आशीर्वाद",
-      subheading: "वर नवीन एवं वधू मनीषा को अपने पावन आशीर्वाद व शुभकामनाएं भेजें",
+      subheading: "वर नवीन एवं वधू मोनिका को अपने पावन आशीर्वाद व शुभकामनाएं भेजें",
       formTitle: "अपना शुभकामना संदेश भेजें",
       formDesc: "आपका संदेश विवाह दीवार पर प्रदर्शित होगा",
       nameLabel: "आपका नाम *",
@@ -563,11 +563,11 @@ export const translations = {
 
   haryanvi: {
     brandTitle: "ब्याह का नेवता",
-    coupleHeader: "नवीन लुहाच ❤️ मनीषा श्योराण",
-    hashtag: "#Navisha",
+    coupleHeader: "नवीन लुहाच ❤️ मोनिका श्योराण",
+    hashtag: "#Navika",
     portal: {
       tagline: "देसी ठाठ अर वैदिक हरियाणवी ब्याह",
-      heading: "नवीन अर मनीषा",
+      heading: "नवीन अर मोनिका",
       subheading: "दो कुणब्यां अर दिलां के पावन मिलन समारोह में थारा सारा कुणबे गेला सुदध देसी आदर-मान ते न्योता सै!",
       selectPrompt: "ब्याह के प्रोग्राम देखण खातर वर पक्ष या वधू पक्ष चुणो:",
       groomCard: {
@@ -607,7 +607,7 @@ export const translations = {
       inviterSub: "गाँव नांधा की ढाणी, तहसील बाढड़ा, ज़िला चरखी दादरी (हरियाणा)",
       lineage: "पोता: दादी चंद्रों देवी अर स्व. दादा शिव नारायण | बेटा: माता सुनीता देवी अर कैप्टन सत्यवीर सिंह",
       heroHeading: "लाडले नवीन का ब्याह (वर पक्ष)",
-      heroSubheading: "राम जी की दया अर बड्ड्यां के आसीरबाद ते मारे लाडले नवीन लुहाच सँग मनीषा के ब्याह में थारा सारा कुणबे गेला सुदध देसी आदर-मान ते न्योता सै!",
+      heroSubheading: "राम जी की दया अर बड्ड्यां के आसीरबाद ते मारे लाडले नवीन लुहाच सँग मोनिका के ब्याह में थारा सारा कुणबे गेला सुदध देसी आदर-मान ते न्योता सै!",
       countdownHeading: "ब्याह के दिन बचे सैं — 20 नवंबर 2026",
       balSandesh: {
         badge: "बाल संदेश एवं बाल हठ",
@@ -642,8 +642,8 @@ export const translations = {
           doodle: "/assets/doodles/lagan.svg?v=20260916c",
           time: "भात: दुपैरे 11:15 बजे | लग्न: संज्या 05:15 बजे",
           location: "नांधा की ढाणी, बाढड़ा",
-          highlight: "चि. नवीन संग कु. मनीषा",
-          description: "ननिहाल के कुणबे का देसी घी के चूरमे अर भात का आदर-सतकार, संज्या न चि. नवीन लुहाच अर कु. मनीषा श्योराण की लग्न पत्रिका बांची जावेगी।",
+          highlight: "चि. नवीन संग कु. मोनिका",
+          description: "ननिहाल के कुणबे का देसी घी के चूरमे अर भात का आदर-सतकार, संज्या न चि. नवीन लुहाच अर कु. मोनिका श्योराण की लग्न पत्रिका बांची जावेगी।",
         },
         {
           date: "20 नवंबर 2026",
@@ -678,7 +678,7 @@ export const translations = {
         {
           title: "घुड़चढ़ी, बारात प्रस्थान एवं पाणिग्रहण (फेरे)",
           origin: "क्षत्रिय परंपरा, शौर्य एवं वैदिक सप्तपदी",
-          story: "घुड़चढ़ी क्षत्रिय परंपरा और हरियाणवी शान का प्रतीक सै। घोड़ी पै सवार होण तैं पहले भाभी दूल्हे की आँख में सुरमा घालै सै और बहनां घोड़ी की लगाम (बाग) पकड़ कै शगुन का नेग लेवैं सैं। इसके बाद पूरे गाँव और रिश्तेदारों के साथ गाजे-बाजे तैं बारात आर्य नगर (चरखी दादरी) खातर रवाना होवै सै, जड़े वरमाला और अग्नि के सात फेरे लेकै नवीन और मनीषा सात जन्मां के पवित्र बंधन में बंधेंगे।",
+          story: "घुड़चढ़ी क्षत्रिय परंपरा और हरियाणवी शान का प्रतीक सै। घोड़ी पै सवार होण तैं पहले भाभी दूल्हे की आँख में सुरमा घालै सै और बहनां घोड़ी की लगाम (बाग) पकड़ कै शगुन का नेग लेवैं सैं। इसके बाद पूरे गाँव और रिश्तेदारों के साथ गाजे-बाजे तैं बारात आर्य नगर (चरखी दादरी) खातर रवाना होवै सै, जड़े वरमाला और अग्नि के सात फेरे लेकै नवीन और मोनिका सात जन्मां के पवित्र बंधन में बंधेंगे।",
           significance: "शौर्य, कर्तव्य, धर्म और सात जन्मों का अटूट दांपत्य बंधन।",
         },
       ],
@@ -699,8 +699,8 @@ export const translations = {
       inviter: "श्री जगवीर सिंह श्योराण अर सारा श्योराण कुणबा",
       inviterSub: "आर्य नगर, पो. व तहसील बाढड़ा, ज़िला चरखी दादरी (हरियाणा)",
       lineage: "पोती: दादी स्व. समजो अर स्व. दादा लच्छी राम | बेटी: माता सरोज देवी अर पिता जगवीर सिंह श्योराण",
-      heroHeading: "लाडली मनीषा का ब्याह (वधू पक्ष)",
-      heroSubheading: "राम जी की दया अर बड्ड्यां के आसीरबाद ते मारी लाडली मनीषा श्योराण सँग नवीन लुहाच के ब्याह में थारा सारा कुणबे गेला सुदध देसी आदर-मान ते न्योता सै!",
+      heroHeading: "लाडली मोनिका का ब्याह (वधू पक्ष)",
+      heroSubheading: "राम जी की दया अर बड्ड्यां के आसीरबाद ते मारी लाडली मोनिका श्योराण सँग नवीन लुहाच के ब्याह में थारा सारा कुणबे गेला सुदध देसी आदर-मान ते न्योता सै!",
       countdownHeading: "ब्याह के दिन बचे सैं — 20 नवंबर 2026",
       venueCard: {
         title: "आर्यनगर",
@@ -708,7 +708,7 @@ export const translations = {
       },
       balSandesh: {
         badge: "बाल संदेश एवं मनुहार",
-        quote: "मारी प्यारी बुआ जी / मौसी जी मनीषा के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
+        quote: "मारी प्यारी बुआ जी / मौसी जी मोनिका के ब्याह में जलूल-जलूल (ज़रूर) आणा!",
         children: "आवनि, प्रिधि अर नवनीता",
       },
       events: [
@@ -719,8 +719,8 @@ export const translations = {
           doodle: "/assets/doodles/haldi.jpg",
           time: "तड़के 10:15 बजे ते",
           location: "आर्य नगर, तहसील बाढड़ा",
-          highlight: "मनीषा लाडली के हल्दी-उबटन",
-          description: "मारी लाडली मनीषा के घरै बाण बैठैगा, सुहागण ताई-चाची सुगन की हल्दी-पीठी लावैंगी अर मंगल गीत गावैंगी।",
+          highlight: "मोनिका लाडली के हल्दी-उबटन",
+          description: "मारी लाडली मोनिका के घरै बाण बैठैगा, सुहागण ताई-चाची सुगन की हल्दी-पीठी लावैंगी अर मंगल गीत गावैंगी।",
         },
         {
           date: "18 नवंबर 2026",
@@ -729,8 +729,8 @@ export const translations = {
           doodle: "/assets/doodles/bride_mahendi.png",
           time: "संज्या 04:15 बजे ते",
           location: "आर्य नगर, तहसील बाढड़ा",
-          highlight: "लाडली मनीषा के गाढ़ी मेहंदी अर लोकगीत",
-          description: "मनीषा के हात्थां में सुगन की मेहंदी रचाई जावैगी, ढोलक पै बन्नी के गीत अर देसी नाचना होवैगा।",
+          highlight: "लाडली मोनिका के गाढ़ी मेहंदी अर लोकगीत",
+          description: "मोनिका के हात्थां में सुगन की मेहंदी रचाई जावैगी, ढोलक पै बन्नी के गीत अर देसी नाचना होवैगा।",
         },
         {
           date: "20 नवंबर 2026",
@@ -740,7 +740,7 @@ export const translations = {
           time: "भात: दुपैरे 11:15 बजे | मंडप पूजन: संज्या 05:15 बजे",
           location: "आर्य नगर, तहसील बाढड़ा",
           highlight: "मामा पक्ष का भात, चुंदड़ी अर मंडप पूजन",
-          description: "ननिहाल के नाणके ठाठ ते भात लेकै पहुंचेंगे, लाडली मनीषा नै चुंदड़ी ओढ़ाई जावेगी अर शुभ मंडप पूजन होवैगा।",
+          description: "ननिहाल के नाणके ठाठ ते भात लेकै पहुंचेंगे, लाडली मोनिका नै चुंदड़ी ओढ़ाई जावेगी अर शुभ मंडप पूजन होवैगा।",
         },
         {
           date: "20 नवंबर 2026",
@@ -757,7 +757,7 @@ export const translations = {
         {
           title: "लाडली का बाण अर हल्दी",
           origin: "वैदिक परंपरा अर हरियाणवी संस्कृति",
-          story: "लाडली मनीषा के बाण बैठण के बाद सुख-समृद्धि और नजर तैं बचाण खातर मौली का कांगणा बांध्या जावै सै। सुहागण चाचियाँ-ताइयाँ तेल-हल्दी का उबटन ला कै आशीर्वाद देवैं सैं।",
+          story: "लाडली मोनिका के बाण बैठण के बाद सुख-समृद्धि और नजर तैं बचाण खातर मौली का कांगणा बांध्या जावै सै। सुहागण चाचियाँ-ताइयाँ तेल-हल्दी का उबटन ला कै आशीर्वाद देवैं सैं।",
           significance: "काया शुद्धि, रूप का निखार एवं आरोग्य का आशीर्वाद।",
         },
         {
@@ -769,13 +769,13 @@ export const translations = {
         {
           title: "नाणके का भात एवं मंडप पूजन",
           origin: "नरसी का भात अर नाणके का मान",
-          story: "मामा जी अपनी भांजी मनीषा खातर रेशमी चुंदड़ी अर भात लेकै पहुंचैं सैं। ननिहाल का मान-सम्मान पूरे कुणबे का सीना चौड़ा करै सै और शुभ मंडप पूजन संपन्न होवै सै।",
+          story: "मामा जी अपनी भांजी मोनिका खातर रेशमी चुंदड़ी अर भात लेकै पहुंचैं सैं। ननिहाल का मान-सम्मान पूरे कुणबे का सीना चौड़ा करै सै और शुभ मंडप पूजन संपन्न होवै सै।",
           significance: "मामा का स्नेह, ननिहाल का गर्व अर वैवाहिक मंगल।",
         },
         {
           title: "बारात अगवानी, वरमाला अर पावन फेरे",
           origin: "वैदिक सनातन परंपरा अर सात फेरे",
-          story: "कन्या पक्ष पूरे मान-सम्मान तैं बारात की अगवानी करै सै। जयमाला के बाद अग्नि के साम्हणे सात वचन लेकै नवीन और मनीषा सात जन्मां के बंधन में बंधेंगे।",
+          story: "कन्या पक्ष पूरे मान-सम्मान तैं बारात की अगवानी करै सै। जयमाला के बाद अग्नि के साम्हणे सात वचन लेकै नवीन और मोनिका सात जन्मां के बंधन में बंधेंगे।",
           significance: "धर्म, कर्तव्य, समर्पण अर सात जन्मां का अटूट नाता।",
         },
       ],
@@ -818,7 +818,7 @@ export const translations = {
     gallery: {
       badge: "डूडल अर फोटा गैलरी",
       heading: "एआई डूडल अर ब्याह की गैलरी",
-      subheading: "नवीन अर मनीषा (#Navisha) के ब्याह के खास डूडल। थाम भी अपणी फोटा अड़े चढ़ा सको सो!",
+      subheading: "नवीन अर मोनिका (#Navika) के ब्याह के खास डूडल। थाम भी अपणी फोटा अड़े चढ़ा सको सो!",
       shareTitle: "अपणी फोटा अर यादें भेजो",
       shareDesc: "गैलरी में देखण खातर अपणी फोटा अपलोड करो",
       uploadBtn: "फोटा अपलोड करो",
@@ -831,7 +831,7 @@ export const translations = {
     wishes: {
       badge: "असीस की देहरी",
       heading: "असीस (शुभकामनाएं) अर प्यार",
-      subheading: "लाडले नवीन अर मनीषा खातर अपणी असीस अर बधाई लिखो",
+      subheading: "लाडले नवीन अर मोनिका खातर अपणी असीस अर बधाई लिखो",
       formTitle: "अपणी असीस भेजो",
       formDesc: "थारा संदेश ब्याह की देहरी पै चमकैगा",
       nameLabel: "थारा नाम *",

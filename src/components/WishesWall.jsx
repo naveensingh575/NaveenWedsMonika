@@ -7,14 +7,14 @@ export default function WishesWall({ t }) {
       id: 1,
       name: "Ch. Rajendra Luhach & Family",
       relation: "Family Elder",
-      message: "नवीन बेटे और मनीषा बहू को विवाह की ढेर सारी शुभकामनाएं एवं हार्दिक आशीर्वाद!",
+      message: "नवीन बेटे और मोनिका बहू को विवाह की ढेर सारी शुभकामनाएं एवं हार्दिक आशीर्वाद!",
       date: "Aug 2026",
     },
     {
       id: 2,
       name: "Col. S. K. Sheoran",
       relation: "Well Wisher",
-      message: "Heartiest congratulations to Capt. Satyavir Singh & family! Best wishes to Naveen & Manisha for a blissful married life.",
+      message: "Heartiest congratulations to Capt. Satyavir Singh & family! Best wishes to Naveen & Monika for a blissful married life.",
       date: "Aug 2026",
     },
     {
@@ -60,7 +60,7 @@ export default function WishesWall({ t }) {
           {t.wishes?.heading || "Guestbook & Blessings"}
         </h2>
         <p className="text-[var(--text-secondary)] text-sm sm:text-base max-w-xl mx-auto mt-2 font-sans">
-          {t.wishes?.subheading || "Leave your warm wishes and blessings for Groom Naveen & Bride Manisha"}
+          {t.wishes?.subheading || "Leave your warm wishes and blessings for Groom Naveen & Bride Monika"}
         </p>
       </div>
 

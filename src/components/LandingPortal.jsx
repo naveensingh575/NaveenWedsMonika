@@ -29,12 +29,12 @@ export default function LandingPortal({ onSelectSide, currentLang, setCurrentLan
         </span>
 
         <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl font-extrabold text-[var(--text-primary)] tracking-tight leading-tight">
-          Naveen <span className="text-rose-500 font-sans inline-block animate-pulse">❤️</span> Manisha
+          Naveen <span className="text-rose-500 font-sans inline-block animate-pulse">❤️</span> Monika
         </h1>
 
         <div className="mt-3 flex items-center justify-center space-x-3">
           <span className="px-4 py-1 rounded-full bg-[var(--badge-bg)] text-[var(--badge-text)] border border-[var(--badge-border)] text-xs font-bold font-mono">
-            #Navisha
+            #Navika
           </span>
           <span className="text-xs sm:text-sm text-[var(--text-secondary)] font-sans">
             20 November 2026 • Haryana
@@ -74,12 +74,12 @@ export default function LandingPortal({ onSelectSide, currentLang, setCurrentLan
           <div className="w-28 h-36 sm:w-36 sm:h-48 rounded-2xl overflow-hidden border-2 border-[var(--border-gold)] shadow-2xl bg-black rotate-[4deg] group-hover:rotate-0 group-hover:scale-105 transition-all duration-500">
             <img
               src="/assets/doodles/bride.png"
-              alt="Bride Manisha Sheoran"
+              alt="Bride Monika Sheoran"
               className="w-full h-full object-cover object-top"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end justify-center pb-2">
               <span className="text-[11px] sm:text-xs font-bold text-white tracking-wider font-serif">
-                Manisha (वधू)
+                Monika (वधू)
               </span>
             </div>
           </div>
@@ -189,7 +189,7 @@ export default function LandingPortal({ onSelectSide, currentLang, setCurrentLan
                   {p.brideCard?.side || "Bride Side - Aryanagar"}
                 </h3>
                 <p className="text-xs text-[var(--text-secondary)] font-sans mt-0.5">
-                  Ku. Manisha Sheoran
+                  Ku. Monika Sheoran
                 </p>
               </div>
             </div>

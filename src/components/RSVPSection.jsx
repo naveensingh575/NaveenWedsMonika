@@ -48,7 +48,7 @@ export default function RSVPSection({ t }) {
     setSubmitError('');
 
     const rsvpPayload = {
-      _subject: `💍 New Wedding RSVP: ${formData.guestName.trim()} (#Navisha)`,
+      _subject: `💍 New Wedding RSVP: ${formData.guestName.trim()} (#Navika)`,
       Guest_Name: formData.guestName.trim(),
       Mobile_Number: cleanPhone ? `+91 ${cleanPhone}` : 'Not Provided',
       Raw_Phone: cleanPhone ? `91${cleanPhone}` : '',
@@ -248,7 +248,7 @@ export default function RSVPSection({ t }) {
               </label>
               <textarea
                 rows={3}
-                placeholder="Write your wishes for Naveen & Manisha..."
+                placeholder="Write your wishes for Naveen & Monika..."
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 className="w-full px-4 py-3 rounded-2xl bg-[var(--bg-elevated)] border border-[var(--border-gold)] text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)]/50 focus:outline-none focus:border-[var(--accent-gold)] shadow-sm font-sans"

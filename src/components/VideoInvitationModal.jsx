@@ -13,7 +13,7 @@ export default function VideoInvitationModal({ isOpen, onClose, customVideoUrl }
           <div className="flex items-center space-x-2">
             <Film className="w-5 h-5 text-[var(--accent-gold)]" />
             <h3 className="font-serif text-lg font-bold text-[var(--text-primary)]">
-              Digital Video Invitation • Naveen & Manisha (#Navisha)
+              Digital Video Invitation • Naveen & Monika (#Navika)
             </h3>
           </div>
           <button
@@ -63,13 +63,13 @@ export default function VideoInvitationModal({ isOpen, onClose, customVideoUrl }
                 {/* Single Common Couple Portrait Circle */}
                 <div className="my-1.5 flex items-center justify-center">
                   <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full border-2 border-[var(--accent-gold)] overflow-hidden shadow-xl bg-black">
-                    <img src="/assets/doodles/couple.png" alt="Naveen & Manisha" className="w-full h-full object-cover object-top" />
+                    <img src="/assets/doodles/couple.png" alt="Naveen & Monika" className="w-full h-full object-cover object-top" />
                   </div>
                 </div>
 
                 <div className="py-1.5 px-5 rounded-xl bg-[var(--bg-elevated)] border border-[var(--border-gold)] shadow-sm">
                   <div className="font-serif text-base sm:text-lg font-bold text-[var(--text-primary)]">
-                    Naveen Luhach  ❤️  Manisha Sheoran (#Navisha)
+                    Naveen Luhach  ❤️  Monika Sheoran (#Navika)
                   </div>
                   <p className="text-[11px] text-[var(--text-secondary)] font-sans">
                     20th November 2026 • Shubh Vivah
@@ -86,7 +86,7 @@ export default function VideoInvitationModal({ isOpen, onClose, customVideoUrl }
             )}
 
             <p className="text-xs text-[var(--text-muted)] mt-4 text-center">
-              Digital Video Invitation for Naveen Luhach & Manisha Sheoran (#Navisha)
+              Digital Video Invitation for Naveen Luhach & Monika Sheoran (#Navika)
             </p>
           </div>
         </div>

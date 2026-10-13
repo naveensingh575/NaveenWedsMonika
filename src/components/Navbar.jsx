@@ -36,7 +36,7 @@ export default function Navbar({
     const nextThemeId = themes[nextIndex].id;
 
     setCurrentTheme(nextThemeId);
-    localStorage.setItem('navisha_theme', nextThemeId);
+    localStorage.setItem('navika_theme', nextThemeId);
     document.documentElement.className = nextThemeId;
     document.documentElement.setAttribute('data-theme', nextThemeId);
   };
@@ -66,7 +66,7 @@ export default function Navbar({
             <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl border-2 border-[var(--accent-gold)] overflow-hidden shadow-md shrink-0 bg-black flex items-center justify-center p-0.5 group-hover:scale-105 transition-transform">
               <img
                 src="/assets/doodles/couple.png"
-                alt="Naveen & Manisha"
+                alt="Naveen & Monika"
                 className="w-full h-full object-cover object-top rounded-xl"
               />
             </div>
@@ -75,7 +75,7 @@ export default function Navbar({
                 {t.brandTitle || "Wedding Invitation"}
               </span>
               <span className="hidden md:inline-block text-[11px] text-[var(--accent-gold)] font-sans font-semibold tracking-wider">
-                Naveen ❤️ Manisha #Navisha
+                Naveen ❤️ Monika #Navika
               </span>
             </div>
           </div>

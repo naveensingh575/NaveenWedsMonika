@@ -15,11 +15,11 @@ import { translations } from './data/translations';
 export default function App() {
   // 1. Persisted Theme and Language via localStorage
   const [currentLang, setCurrentLang] = useState(() => {
-    return localStorage.getItem('navisha_lang') || 'haryanvi';
+    return localStorage.getItem('navika_lang') || localStorage.getItem('navisha_lang') || 'haryanvi';
   });
 
   const [currentTheme, setCurrentTheme] = useState(() => {
-    return localStorage.getItem('navisha_theme') || 'theme-blush-champagne';
+    return localStorage.getItem('navika_theme') || localStorage.getItem('navisha_theme') || 'theme-blush-champagne';
   });
 
   // 2. Active 3-Page Route State ('portal' | 'groom' | 'bride') with Clean URL Routing
@@ -73,11 +73,11 @@ export default function App() {
 
   // Persist language and theme changes to localStorage & DOM
   useEffect(() => {
-    localStorage.setItem('navisha_lang', currentLang);
+    localStorage.setItem('navika_lang', currentLang);
   }, [currentLang]);
 
   useEffect(() => {
-    localStorage.setItem('navisha_theme', currentTheme);
+    localStorage.setItem('navika_theme', currentTheme);
     document.documentElement.className = currentTheme;
     document.documentElement.setAttribute('data-theme', currentTheme);
   }, [currentTheme]);

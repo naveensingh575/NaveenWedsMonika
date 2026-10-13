@@ -4,8 +4,8 @@ import { Heart, Share2, MapPin, ArrowUp } from 'lucide-react';
 export default function Footer({ t, isBrideSide }) {
   const shareText = encodeURIComponent(
     isBrideSide
-      ? "You are cordially invited to the Wedding Ceremony of Manisha Sheoran & Naveen Luhach (#Navisha) on 20th Nov 2026 at Arya Nagar, Tehsil Badhra! Invitation from Shri Jagvir Singh Sheoran & Sheoran Family. View digital invitation card: https://naveenwedsmanisha.online/"
-      : "You are cordially invited to the Wedding Ceremony of Naveen Luhach & Manisha Sheoran (#Navisha) on 20th Nov 2026 at Nandha ki Dhani, Badhra! Invitation from Capt. Satyavir Singh & Luhach Family. View digital invitation card: https://naveenwedsmanisha.online/"
+      ? "You are cordially invited to the Wedding Ceremony of Monika Sheoran & Naveen Luhach (#Navika) on 20th Nov 2026 at Arya Nagar, Tehsil Badhra! Invitation from Shri Jagvir Singh Sheoran & Sheoran Family. View digital invitation card: https://naveenwedsmonika.online/"
+      : "You are cordially invited to the Wedding Ceremony of Naveen Luhach & Monika Sheoran (#Navika) on 20th Nov 2026 at Nandha ki Dhani, Badhra! Invitation from Capt. Satyavir Singh & Luhach Family. View digital invitation card: https://naveenwedsmonika.online/"
   );
 
   const scrollToTop = () => {
@@ -25,8 +25,8 @@ export default function Footer({ t, isBrideSide }) {
           </h3>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed font-sans">
             {isBrideSide
-              ? "Solicit your gracious presence and blessings on the auspicious occasion of the wedding ceremony of our beloved daughter Ku. Manisha Sheoran with Chi. Naveen Luhach."
-              : "Solicit your gracious presence and blessings on the auspicious occasion of the wedding ceremony of our beloved son Naveen Luhach with Manisha Sheoran."}
+              ? "Solicit your gracious presence and blessings on the auspicious occasion of the wedding ceremony of our beloved daughter Ku. Monika Sheoran with Chi. Naveen Luhach."
+              : "Solicit your gracious presence and blessings on the auspicious occasion of the wedding ceremony of our beloved son Naveen Luhach with Monika Sheoran."}
           </p>
           <div className="pt-2 text-xs font-semibold text-[var(--accent-primary)] flex items-center space-x-2">
             <MapPin className="w-4 h-4 shrink-0 text-[var(--accent-gold)]" />
@@ -102,7 +102,7 @@ export default function Footer({ t, isBrideSide }) {
         <p className="flex items-center space-x-1">
           <span>Crafted with</span>
           <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 inline" />
-          <span>for Naveen & Manisha (#Navisha)</span>
+          <span>for Naveen & Monika (#Navika)</span>
         </p>
       </div>
     </footer>

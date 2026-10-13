@@ -91,7 +91,7 @@ export default function MusicPlayer(props) {
               <div className={`w-14 h-14 sm:w-16 sm:h-16 rounded-2xl border-2 border-[var(--accent-gold)] overflow-hidden shadow-lg shrink-0 relative bg-black flex items-center justify-center ${isPlaying ? 'ring-2 ring-[var(--accent-gold)] ring-offset-2 ring-offset-[var(--bg-primary)]' : ''}`}>
                 <img
                   src="/assets/doodles/couple.png"
-                  alt="Naveen & Manisha Wedding Audio"
+                  alt="Naveen & Monika Wedding Audio"
                   className={`w-full h-full object-cover object-top ${isPlaying ? 'scale-105' : 'scale-100'} transition-transform duration-500`}
                 />
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center">

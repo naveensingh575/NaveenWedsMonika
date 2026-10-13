@@ -62,7 +62,7 @@ export default function Countdown({ targetDateStr = '2026-11-20T23:59:00+05:30',
             🎉 The Auspicious Day is Here! Shubhaarambh! ✨
           </div>
           <p className="text-sm sm:text-lg font-hindi text-[var(--text-primary)] mt-3 font-bold">
-            नवीन एवं मनीषा के शुभ विवाह का मंगलमयी समय आ गया है!
+            नवीन एवं मोनिका के शुभ विवाह का मंगलमयी समय आ गया है!
           </p>
         </div>
       ) : (

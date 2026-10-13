@@ -21,14 +21,14 @@ export default function GallerySection({ customCouplePhoto, t }) {
     },
     {
       id: 'bride_haldi',
-      title: 'Bride Manisha Haldi Ceremony',
+      title: 'Bride Monika Haldi Ceremony',
       subtitle: 'Turmeric Ubtan & Traditional Rituals',
       src: '/assets/doodles/haldi.jpg',
       tag: '16 Nov • Bride Haldi',
     },
     {
       id: 'bride_mehendi',
-      title: 'Bride Manisha Mehendi Art',
+      title: 'Bride Monika Mehendi Art',
       subtitle: 'Bridal Henna & Wedding Festivities',
       src: '/assets/doodles/bride_mahendi.png',
       tag: '18 Nov • Bride Mehendi',
@@ -47,7 +47,7 @@ export default function GallerySection({ customCouplePhoto, t }) {
           {t.gallery?.heading || "AI Doodle & Wedding Gallery"}
         </h2>
         <p className="text-[var(--text-secondary)] text-sm sm:text-base max-w-2xl mx-auto mt-2 font-sans">
-          Custom Haryanvi AI Doodles & Couple Portraits for Naveen & Manisha (#Navisha)
+          Custom Haryanvi AI Doodles & Couple Portraits for Naveen & Monika (#Navika)
         </p>
       </div>
 

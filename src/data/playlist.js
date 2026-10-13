@@ -7,7 +7,7 @@ export const WEDDING_PLAYLIST = [
     artist: 'Alaya F | Goldie Sohel | Punit M',
     category: '💍 Couple / Romantic Songs',
     categoryKey: 'couple',
-    tag: 'Wedding Theme for Naveen & Manisha (#Navisha)',
+    tag: 'Wedding Theme for Naveen & Monika (#Navika)',
     url: '/assets/audio/aaj_sajeya.webm',
     durationEst: '3:50',
   },

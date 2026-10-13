@@ -32,8 +32,8 @@ into an AI coding assistant (like Antigravity / Gemini / ChatGPT / Claude).
     "portraitImage": "/assets/doodles/groom_portrait.png"
   },
   "BRIDE": {
-    "fullName": "Manisha Sheoran",
-    "shortName": "Manisha",
+    "fullName": "Monika Sheoran",
+    "shortName": "Monika",
     "fatherTitle": "Shri",
     "fatherName": "Jagvir Singh Sheoran",
     "motherName": "Smt. Suman Devi",
@@ -50,10 +50,10 @@ into an AI coding assistant (like Antigravity / Gemini / ChatGPT / Claude).
     "portraitImage": "/assets/doodles/bride_portrait.png"
   },
   "WEDDING": {
-    "hashtag": "#Navisha",
+    "hashtag": "#Navika",
     "weddingDateISO": "2026-11-20T19:00:00+05:30",
     "weddingDateDisplay": "20 November 2026",
-    "customDomain": "https://naveenwedsmanisha.online/",
+    "customDomain": "https://naveenwedsmonika.online/",
     "kidsInvitation": {
       "names": "Vedant & Shivansh",
       "relation": "Mama Ji Naveen"
@@ -85,7 +85,7 @@ into an AI coding assistant (like Antigravity / Gemini / ChatGPT / Claude).
       "doodle": "/assets/doodles/lagan.svg",
       "time": "11:00 AM Bhaat | 05:00 PM Lagan",
       "location": "Nandha ki Dhani, Badhra",
-      "highlight": "Chi. Naveen weds Ku. Manisha"
+      "highlight": "Chi. Naveen weds Ku. Monika"
     },
     {
       "date": "20 November 2026",
@@ -105,7 +105,7 @@ into an AI coding assistant (like Antigravity / Gemini / ChatGPT / Claude).
       "doodle": "/assets/doodles/haldi.jpg",
       "time": "10:00 AM Onwards",
       "location": "Bride's House, Arya Nagar, Tehsil Badhra",
-      "highlight": "Bride Manisha's Haldi & Ubtan Application"
+      "highlight": "Bride Monika's Haldi & Ubtan Application"
     },
     {
       "date": "18 November 2026",
@@ -236,7 +236,7 @@ Provide instant toggle between:
 ### 🎆 Skyshots Pyrotechnics Canvas Engine (CelebrationCanvas.jsx)
 - Fixed full-screen overlay canvas (pointer-events-none z-50).
 - Launches multi-stage colorful realistic firework rockets with trailing sparks, blossom explosions, and particle decay (alpha < 0.05 pruning).
-- Synchronous floating congratulations banner: "Congratulations Naveen & Manisha!" with dual gold stars.
+- Synchronous floating congratulations banner: "Congratulations Naveen & Monika!" with dual gold stars.
 - DPR matrix scale reset on window resize (ctx.setTransform(1,0,0,1,0,0)) to prevent GPU memory leaks.
 - Triggered on click #1 of "Test Skyshots" button and automatically when countdown hits zero.
 

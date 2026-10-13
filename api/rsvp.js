@@ -39,7 +39,7 @@ export default async function handler(req, res) {
 
     // 2. Format Structured Message for Host WhatsApp
     const messageBody = [
-      `🚩 *NEW WEDDING RSVP: Naveen & Manisha (#Navisha)* 🚩`,
+      `🚩 *NEW WEDDING RSVP: Naveen & Monika (#Navika)* 🚩`,
       ``,
       `👤 *Guest Name:* ${Guest_Name}`,
       `📱 *Mobile Number:* ${Mobile_Number || Raw_Phone || 'Not provided'}`,

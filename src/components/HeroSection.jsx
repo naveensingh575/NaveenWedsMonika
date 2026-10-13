@@ -100,7 +100,7 @@ export default function HeroSection({ customCouplePhoto, openVideoModal, t, side
                   ? '/assets/doodles/groom.png'
                   : '/assets/doodles/couple.png')
               }
-              alt="Naveen Luhach & Manisha Sheoran"
+              alt="Naveen Luhach & Monika Sheoran"
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
@@ -117,12 +117,12 @@ export default function HeroSection({ customCouplePhoto, openVideoModal, t, side
             <div className="flex items-center justify-center space-x-2 text-2xl sm:text-3xl font-serif font-extrabold text-[var(--text-primary)] flex-wrap">
               <span>Naveen Luhach</span>
               <Heart className="w-5 h-5 text-rose-500 fill-rose-500 animate-pulse" />
-              <span>Manisha Sheoran</span>
+              <span>Monika Sheoran</span>
             </div>
             
             <div className="mt-2 flex items-center justify-center space-x-2 text-xs">
               <span className="px-3 py-0.5 rounded-full bg-[var(--badge-bg)] text-[var(--badge-text)] border border-[var(--badge-border)] font-bold">
-                #Navisha
+                #Navika
               </span>
             </div>
 

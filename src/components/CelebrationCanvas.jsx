@@ -346,7 +346,7 @@ export default function CelebrationCanvas() {
               Congratulations to the newlywed couple! 🥂
             </h2>
             <p className="font-hindi text-base sm:text-2xl font-bold text-[var(--text-primary)] mt-3 drop-shadow-[0_2px_10px_rgba(255,255,255,0.8)] dark:drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)] no-underline select-none">
-              नवीन एवं मनीषा के शुभ विवाह की हार्दिक शुभकामनाएँ! ✨
+              नवीन एवं मोनिका के शुभ विवाह की हार्दिक शुभकामनाएँ! ✨
             </p>
           </div>
         </div>
