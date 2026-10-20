@@ -4,7 +4,6 @@ import { X, MapPin, Navigation, Compass, ExternalLink, Copy, Check } from 'lucid
 const VENUES = {
   groom: {
     id: 'groom',
-    badge: "🤵 Groom Side Venue (वर पक्ष)",
     title: "Vill. Nandha Ki Dhani",
     hindiTitle: "नंधा की ढाणी, बाढड़ा (चरखी दादरी)",
     hosts: "Capt. Satyavir Singh & Luhach Family",
@@ -12,11 +11,9 @@ const VENUES = {
     googleMapsUrl: "https://maps.app.goo.gl/FjTdPRhqZYVkGC3H7",
     appleMapsUrl: "https://maps.apple.com/place?auid=3148492795012671499&address=Nanda+Ki+Dhani%2C+Badhra%2C+Charkhi+Dadri%2C+127308%2C+Haryana%2C+India&coordinate=28.443545%2C75.929158&name=Nanda+Ki+Dhani&lsp=7618",
     events: "16 Nov: Haldi • 17 Nov: Sangeet • 19 Nov: Bhaat & Lagan • 20 Nov: Ghurchhari & Barat",
-    landmark: "Near Badhra (~6 KM) • Satnali (~10 KM)",
   },
   bride: {
     id: 'bride',
-    badge: "👰 Bride Side Venue (वधू पक्ष)",
     title: "Aryanagar (आर्यनगर)",
     hindiTitle: "आर्य नगर, तहसील बाढड़ा (चरखी दादरी)",
     hosts: "Shri Jagvir Singh Sheoran & Sheoran Family",
@@ -24,7 +21,6 @@ const VENUES = {
     googleMapsUrl: "https://www.google.com/maps?q=28.507679,75.865814",
     appleMapsUrl: "https://maps.apple.com/place?auid=3216818283696923002&address=Arya+Nagar%2C+Badhra%2C+Charkhi+Dadri%2C+127308%2C+Haryana%2C+India&coordinate=28.508183%2C75.864421&name=Arya+Nagar&lsp=6489",
     events: "16 Nov: Ban & Haldi • 18 Nov: Mehndi • 20 Nov: Bhaat, Mandap Pujan & Vivah",
-    landmark: "Arya Nagar, Badhra Tehsil Main Area",
   },
 };
 
@@ -82,9 +78,6 @@ export default function LocationModal({ isOpen, onClose, initialSide = 'groom', 
               <h3 className="font-serif text-base sm:text-lg font-bold text-[var(--text-primary)] leading-tight">
                 {t?.locations?.badge || "Venue Map & Navigation"}
               </h3>
-              <p className="text-[11px] text-[var(--text-secondary)] font-sans">
-                Choose Google Maps or Apple Maps for exact navigation
-              </p>
             </div>
           </div>
 
@@ -128,15 +121,6 @@ export default function LocationModal({ isOpen, onClose, initialSide = 'groom', 
         <div className="p-6 space-y-5">
           {/* Venue Card */}
           <div className="p-4 rounded-2xl bg-[var(--bg-elevated)] border border-[var(--border-gold)] shadow-sm space-y-2">
-            <div className="flex items-center justify-between">
-              <span className="px-3 py-0.5 rounded-full bg-[var(--badge-bg)] text-[var(--badge-text)] border border-[var(--badge-border)] text-[10px] sm:text-xs font-bold uppercase tracking-wider">
-                {currentVenue.badge}
-              </span>
-              <span className="text-[11px] text-[var(--text-muted)] font-mono">
-                {currentVenue.landmark}
-              </span>
-            </div>
-
             <div>
               <h4 className="font-serif text-xl sm:text-2xl font-extrabold text-[var(--text-primary)]">
                 {currentVenue.title}
