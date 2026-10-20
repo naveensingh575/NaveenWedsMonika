@@ -4,6 +4,7 @@ import LandingPortal from './components/LandingPortal';
 import GroomPage from './components/GroomPage';
 import BridePage from './components/BridePage';
 import VideoInvitationModal from './components/VideoInvitationModal';
+import LocationModal from './components/LocationModal';
 import ThemeSwitcher from './components/ThemeSwitcher';
 
 import { CelebrationProvider } from './context/CelebrationContext';
@@ -93,8 +94,15 @@ export default function App() {
   const [repeatMode, setRepeatMode] = useState('all'); // 'off' | 'all' | 'one'
 
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
+  const [isLocationModalOpen, setIsLocationModalOpen] = useState(false);
+  const [locationModalSide, setLocationModalSide] = useState('groom');
   const [customCouplePhoto, setCustomCouplePhoto] = useState(null);
   const [customVideoUrl, setCustomVideoUrl] = useState(null);
+
+  const openLocationModal = (side = 'groom') => {
+    setLocationModalSide(side);
+    setIsLocationModalOpen(true);
+  };
 
   const audioRef = useRef(null);
   const t = translations[currentLang] || translations.en;
@@ -318,21 +326,8 @@ export default function App() {
         <main>
           {activePage === 'portal' && (
             <LandingPortal
-              onSelectSide={(side, targetSection) => {
-                setActivePage(side);
-                if (targetSection) {
-                  const sectionId = targetSection.replace('#', '');
-                  const scrollToTarget = (attempts = 0) => {
-                    const el = document.getElementById(sectionId);
-                    if (el) {
-                      el.scrollIntoView({ behavior: 'smooth' });
-                    } else if (attempts < 12) {
-                      setTimeout(() => scrollToTarget(attempts + 1), 50);
-                    }
-                  };
-                  setTimeout(() => scrollToTarget(), 50);
-                }
-              }}
+              onSelectSide={(side) => setActivePage(side)}
+              openLocationModal={openLocationModal}
               currentLang={currentLang}
               setCurrentLang={setCurrentLang}
               t={t}
@@ -345,6 +340,7 @@ export default function App() {
               customCouplePhoto={customCouplePhoto}
               setCustomCouplePhoto={setCustomCouplePhoto}
               openVideoModal={() => setIsVideoModalOpen(true)}
+              openLocationModal={openLocationModal}
               t={t}
               onBackToPortal={() => setActivePage('portal')}
               onSwitchToBride={() => setActivePage('bride')}
@@ -357,6 +353,7 @@ export default function App() {
               customCouplePhoto={customCouplePhoto}
               setCustomCouplePhoto={setCustomCouplePhoto}
               openVideoModal={() => setIsVideoModalOpen(true)}
+              openLocationModal={openLocationModal}
               t={t}
               onBackToPortal={() => setActivePage('portal')}
               onSwitchToGroom={() => setActivePage('groom')}
@@ -371,6 +368,14 @@ export default function App() {
           onClose={() => setIsVideoModalOpen(false)}
           customVideoUrl={customVideoUrl}
           setCustomVideoUrl={setCustomVideoUrl}
+        />
+
+        {/* Venue Location & Navigation Modal */}
+        <LocationModal
+          isOpen={isLocationModalOpen}
+          onClose={() => setIsLocationModalOpen(false)}
+          initialSide={locationModalSide}
+          t={t}
         />
 
         {/* Floating Theme Switcher Widget */}

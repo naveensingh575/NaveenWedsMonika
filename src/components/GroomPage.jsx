@@ -14,6 +14,7 @@ export default function GroomPage({
   customCouplePhoto,
   setCustomCouplePhoto,
   openVideoModal,
+  openLocationModal,
   t,
   onBackToPortal,
   onSwitchToBride,
@@ -50,6 +51,7 @@ export default function GroomPage({
         customCouplePhoto={customCouplePhoto}
         setCustomCouplePhoto={setCustomCouplePhoto}
         openVideoModal={openVideoModal}
+        openLocationModal={openLocationModal}
         t={t}
         sideData={sideData}
       />

@@ -14,6 +14,7 @@ export default function BridePage({
   customCouplePhoto,
   setCustomCouplePhoto,
   openVideoModal,
+  openLocationModal,
   t,
   onBackToPortal,
   onSwitchToGroom,
@@ -50,6 +51,7 @@ export default function BridePage({
         customCouplePhoto={customCouplePhoto}
         setCustomCouplePhoto={setCustomCouplePhoto}
         openVideoModal={openVideoModal}
+        openLocationModal={openLocationModal}
         t={t}
         sideData={sideData}
       />

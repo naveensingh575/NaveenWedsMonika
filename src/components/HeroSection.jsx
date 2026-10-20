@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Heart, Sparkles, MapPin, Film } from 'lucide-react';
 import { useCelebration } from '../hooks/useCelebration';
 
-export default function HeroSection({ customCouplePhoto, openVideoModal, t, sideData }) {
+export default function HeroSection({ customCouplePhoto, openVideoModal, openLocationModal, t, sideData }) {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   const { triggerCelebration } = useCelebration();
 
@@ -152,17 +152,18 @@ export default function HeroSection({ customCouplePhoto, openVideoModal, t, side
         </button>
 
         {/* Get Location & Maps Button */}
-        <a
-          href="#locations"
-          onClick={(e) => {
-            e.preventDefault();
-            document.getElementById('locations')?.scrollIntoView({ behavior: 'smooth' });
+        <button
+          type="button"
+          onClick={() => {
+            if (openLocationModal) {
+              openLocationModal(isBrideSide ? 'bride' : 'groom');
+            }
           }}
           className="w-full sm:w-1/2 py-3.5 px-6 rounded-2xl bg-[var(--bg-elevated)] hover:bg-[var(--bg-card)] border-2 border-[var(--border-gold)] text-[var(--text-primary)] hover:text-[var(--accent-primary)] font-serif font-bold text-sm shadow-xl hover:border-[var(--accent-gold)] hover:scale-105 active:scale-95 transition-all duration-300 flex items-center justify-center space-x-2 group cursor-pointer"
         >
           <MapPin className="w-4 h-4 text-[var(--accent-gold)] group-hover:scale-110 transition-transform" />
           <span className="tracking-wide">Get Location & Maps</span>
-        </a>
+        </button>
       </div>
     </section>
   );

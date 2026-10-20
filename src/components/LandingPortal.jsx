@@ -3,7 +3,7 @@ import { Heart, MapPin, ArrowRight } from 'lucide-react';
 import MusicPlayer from './MusicPlayer';
 import Countdown from './Countdown';
 
-export default function LandingPortal({ onSelectSide, currentLang, setCurrentLang, t, musicPlayerProps }) {
+export default function LandingPortal({ onSelectSide, openLocationModal, currentLang, setCurrentLang, t, musicPlayerProps }) {
   const p = t.portal || {};
 
   return (
@@ -155,7 +155,9 @@ export default function LandingPortal({ onSelectSide, currentLang, setCurrentLan
               type="button"
               onClick={(e) => {
                 e.stopPropagation();
-                onSelectSide('groom', 'locations');
+                if (openLocationModal) {
+                  openLocationModal('groom');
+                }
               }}
               className="w-full py-2.5 px-4 rounded-2xl bg-[var(--bg-elevated)] hover:bg-[var(--bg-card)] border-2 border-[var(--border-gold)]/80 hover:border-[var(--accent-gold)] text-[var(--text-primary)] hover:text-[var(--accent-primary)] font-serif font-bold text-xs sm:text-sm shadow-md flex items-center justify-center space-x-2 transition-all cursor-pointer group/loc active:scale-[0.98]"
             >
@@ -234,7 +236,9 @@ export default function LandingPortal({ onSelectSide, currentLang, setCurrentLan
               type="button"
               onClick={(e) => {
                 e.stopPropagation();
-                onSelectSide('bride', 'locations');
+                if (openLocationModal) {
+                  openLocationModal('bride');
+                }
               }}
               className="w-full py-2.5 px-4 rounded-2xl bg-[var(--bg-elevated)] hover:bg-[var(--bg-card)] border-2 border-[var(--border-gold)]/80 hover:border-[var(--accent-gold)] text-[var(--text-primary)] hover:text-[var(--accent-primary)] font-serif font-bold text-xs sm:text-sm shadow-md flex items-center justify-center space-x-2 transition-all cursor-pointer group/loc active:scale-[0.98]"
             >
