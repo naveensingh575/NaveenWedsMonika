@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, MapPin, ArrowRight } from 'lucide-react';
+import { Heart, MapPin, ArrowRight, Navigation } from 'lucide-react';
 import MusicPlayer from './MusicPlayer';
 import Countdown from './Countdown';
 
@@ -84,6 +84,28 @@ export default function LandingPortal({ onSelectSide, openLocationModal, current
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Quick 1-Tap Venue Location & Maps Button (Instant Access) */}
+      <div className="my-4 z-10 flex justify-center">
+        <button
+          type="button"
+          onClick={() => {
+            if (openLocationModal) {
+              openLocationModal('groom');
+            }
+          }}
+          className="inline-flex items-center space-x-2.5 px-6 sm:px-8 py-3.5 rounded-full bg-[var(--bg-elevated)] hover:bg-[var(--bg-card)] border-2 border-[var(--border-gold)] hover:border-[var(--accent-gold)] text-[var(--text-primary)] hover:text-[var(--accent-primary)] font-serif font-bold text-sm sm:text-base shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer group"
+        >
+          <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-[var(--accent-gold)] group-hover:scale-110 transition-transform animate-bounce shrink-0" />
+          <span className="tracking-wide">
+            {t.locations?.badge || "Venue Map & Navigation"}
+          </span>
+          <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-[var(--badge-bg)] text-[var(--badge-text)] border border-[var(--badge-border)] font-sans font-semibold hidden sm:inline-block">
+            Google &amp; Apple Maps
+          </span>
+          <Navigation className="w-4 h-4 text-[var(--accent-primary)] group-hover:translate-x-0.5 transition-transform shrink-0" />
+        </button>
       </div>
 
       {/* Side Selection Prompt */}
