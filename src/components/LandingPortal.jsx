@@ -101,9 +101,6 @@ export default function LandingPortal({ onSelectSide, openLocationModal, current
           <span className="tracking-wide">
             {t.locations?.badge || "Venue Map & Navigation"}
           </span>
-          <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-[var(--badge-bg)] text-[var(--badge-text)] border border-[var(--badge-border)] font-sans font-semibold hidden sm:inline-block">
-            Google &amp; Apple Maps
-          </span>
           <Navigation className="w-4 h-4 text-[var(--accent-primary)] group-hover:translate-x-0.5 transition-transform shrink-0" />
         </button>
       </div>
