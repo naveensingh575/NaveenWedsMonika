@@ -93,7 +93,19 @@ export default function Footer({ t, isBrideSide }) {
 
       </div>
 
-      <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-[var(--border-gold)]/60 text-center text-xs text-[var(--text-muted)] flex flex-col sm:flex-row items-center justify-between gap-4 font-sans">
+      {/* R.S.V.P. Section for Groom Side */}
+      {!isBrideSide && (
+        <div className="max-w-4xl mx-auto mt-10 pt-6 pb-2 border-t border-[var(--border-gold)]/40 text-center">
+          <span className="inline-block px-4 py-1 rounded-full bg-[var(--badge-bg)] text-[var(--badge-text)] border border-[var(--badge-border)] text-xs font-bold tracking-widest uppercase mb-2.5">
+            R.S.V.P.
+          </span>
+          <p className="text-sm sm:text-base font-serif font-medium text-[var(--text-primary)] leading-relaxed px-4">
+            Sh Ajit Singh, Krishan Kumar, Vedvir, Sanjay, Ma Sudhir, Dr. Parshant, Shavin, Neeraj, &amp; All Luhach Family, Relatives &amp; Friends
+          </p>
+        </div>
+      )}
+
+      <div className={`max-w-7xl mx-auto ${!isBrideSide ? 'mt-8' : 'mt-12'} pt-6 border-t border-[var(--border-gold)]/60 text-center text-xs text-[var(--text-muted)] flex flex-col sm:flex-row items-center justify-between gap-4 font-sans`}>
         <p>
           {isBrideSide
             ? "With Best Compliments from Sheoran Family & All Relatives"
