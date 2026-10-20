@@ -149,9 +149,28 @@ export default function LandingPortal({ onSelectSide, currentLang, setCurrentLan
             </div>
           </div>
 
-          {/* Enter Button */}
-          <div className="mt-6">
-            <button className="w-full py-3.5 px-6 rounded-2xl bg-[var(--accent-primary)] hover:opacity-90 text-white font-bold text-sm shadow-lg group-hover:opacity-95 flex items-center justify-center space-x-2 transition-all cursor-pointer">
+          {/* Action Buttons: Location & Enter */}
+          <div className="mt-6 space-y-2.5">
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onSelectSide('groom', 'locations');
+              }}
+              className="w-full py-2.5 px-4 rounded-2xl bg-[var(--bg-elevated)] hover:bg-[var(--bg-card)] border-2 border-[var(--border-gold)]/80 hover:border-[var(--accent-gold)] text-[var(--text-primary)] hover:text-[var(--accent-primary)] font-serif font-bold text-xs sm:text-sm shadow-md flex items-center justify-center space-x-2 transition-all cursor-pointer group/loc active:scale-[0.98]"
+            >
+              <MapPin className="w-4 h-4 text-[var(--accent-gold)] group-hover/loc:scale-110 transition-transform shrink-0" />
+              <span>{t.locations?.badge || "Venue Map & Navigation"}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onSelectSide('groom');
+              }}
+              className="w-full py-3.5 px-6 rounded-2xl bg-[var(--accent-primary)] hover:opacity-90 text-white font-bold text-sm shadow-lg group-hover:opacity-95 flex items-center justify-center space-x-2 transition-all cursor-pointer active:scale-[0.98]"
+            >
               <span>{p.groomCard?.btn || "Enter Groom's Side (वर पक्ष)"}</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
@@ -209,9 +228,28 @@ export default function LandingPortal({ onSelectSide, currentLang, setCurrentLan
             </div>
           </div>
 
-          {/* Enter Button */}
-          <div className="mt-6">
-            <button className="w-full py-3.5 px-6 rounded-2xl bg-[var(--accent-primary)] hover:opacity-90 text-white font-bold text-sm shadow-lg group-hover:opacity-95 flex items-center justify-center space-x-2 transition-all cursor-pointer">
+          {/* Action Buttons: Location & Enter */}
+          <div className="mt-6 space-y-2.5">
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onSelectSide('bride', 'locations');
+              }}
+              className="w-full py-2.5 px-4 rounded-2xl bg-[var(--bg-elevated)] hover:bg-[var(--bg-card)] border-2 border-[var(--border-gold)]/80 hover:border-[var(--accent-gold)] text-[var(--text-primary)] hover:text-[var(--accent-primary)] font-serif font-bold text-xs sm:text-sm shadow-md flex items-center justify-center space-x-2 transition-all cursor-pointer group/loc active:scale-[0.98]"
+            >
+              <MapPin className="w-4 h-4 text-[var(--accent-gold)] group-hover/loc:scale-110 transition-transform shrink-0" />
+              <span>{t.locations?.badge || "Venue Map & Navigation"}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onSelectSide('bride');
+              }}
+              className="w-full py-3.5 px-6 rounded-2xl bg-[var(--accent-primary)] hover:opacity-90 text-white font-bold text-sm shadow-lg group-hover:opacity-95 flex items-center justify-center space-x-2 transition-all cursor-pointer active:scale-[0.98]"
+            >
               <span>{p.brideCard?.btn || "Enter Bride's Side (वधू पक्ष)"}</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>

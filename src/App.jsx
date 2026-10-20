@@ -318,7 +318,21 @@ export default function App() {
         <main>
           {activePage === 'portal' && (
             <LandingPortal
-              onSelectSide={(side) => setActivePage(side)}
+              onSelectSide={(side, targetSection) => {
+                setActivePage(side);
+                if (targetSection) {
+                  const sectionId = targetSection.replace('#', '');
+                  const scrollToTarget = (attempts = 0) => {
+                    const el = document.getElementById(sectionId);
+                    if (el) {
+                      el.scrollIntoView({ behavior: 'smooth' });
+                    } else if (attempts < 12) {
+                      setTimeout(() => scrollToTarget(attempts + 1), 50);
+                    }
+                  };
+                  setTimeout(() => scrollToTarget(), 50);
+                }
+              }}
               currentLang={currentLang}
               setCurrentLang={setCurrentLang}
               t={t}
