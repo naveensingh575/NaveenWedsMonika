@@ -4,7 +4,7 @@ import { MapPin, Navigation, ExternalLink, Compass, Home } from 'lucide-react';
 export default function LocationsSection({ t, sideData, isBrideSide }) {
   // Exact GPS Coordinates & Location Pins
   const groomExactGoogleMapsUrl = "https://maps.app.goo.gl/FjTdPRhqZYVkGC3H7";
-  const groomExactAppleMapsUrl = "https://maps.apple.com/?q=Nandha+Ki+Dhani,+Badhra,+Haryana&ll=28.4552,75.8344";
+  const groomExactAppleMapsUrl = "https://maps.apple.com/place?auid=3148492795012671499&address=Nanda+Ki+Dhani%2C+Badhra%2C+Charkhi+Dadri%2C+127308%2C+Haryana%2C+India&coordinate=28.443545%2C75.929158&name=Nanda+Ki+Dhani&lsp=7618";
 
   const brideExactGoogleMapsUrl = "https://www.google.com/maps?q=28.507679,75.865814";
   const brideExactAppleMapsUrl = "https://maps.apple.com/place?auid=3216818283696923002&address=Arya+Nagar%2C+Badhra%2C+Charkhi+Dadri%2C+127308%2C+Haryana%2C+India&coordinate=28.508183%2C75.864421&name=Arya+Nagar&lsp=6489";
