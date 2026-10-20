@@ -26,7 +26,7 @@ export default function Footer({ t, isBrideSide }) {
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed font-sans">
             {isBrideSide
               ? "Solicit your gracious presence and blessings on the auspicious occasion of the wedding ceremony of our beloved daughter Ku. Monika Sheoran with Chi. Naveen Luhach."
-              : "Solicit your gracious presence and blessings on the auspicious occasion of the wedding ceremony of our beloved son Naveen Luhach with Monika Sheoran."}
+              : "Sh Ajit Singh, Krishan Kumar, Vedvir, Sanjay, Ma Sudhir, Dr. Parshant, Shavin, Neeraj, & All Luhach Family, Relatives & Friends"}
           </p>
           <div className="pt-2 text-xs font-semibold text-[var(--accent-primary)] flex items-center space-x-2">
             <MapPin className="w-4 h-4 shrink-0 text-[var(--accent-gold)]" />
@@ -93,19 +93,7 @@ export default function Footer({ t, isBrideSide }) {
 
       </div>
 
-      {/* R.S.V.P. Section for Groom Side */}
-      {!isBrideSide && (
-        <div className="max-w-4xl mx-auto mt-10 pt-6 pb-2 border-t border-[var(--border-gold)]/40 text-center">
-          <span className="inline-block px-4 py-1 rounded-full bg-[var(--badge-bg)] text-[var(--badge-text)] border border-[var(--badge-border)] text-xs font-bold tracking-widest uppercase mb-2.5">
-            R.S.V.P.
-          </span>
-          <p className="text-sm sm:text-base font-serif font-medium text-[var(--text-primary)] leading-relaxed px-4">
-            Sh Ajit Singh, Krishan Kumar, Vedvir, Sanjay, Ma Sudhir, Dr. Parshant, Shavin, Neeraj, &amp; All Luhach Family, Relatives &amp; Friends
-          </p>
-        </div>
-      )}
-
-      <div className={`max-w-7xl mx-auto ${!isBrideSide ? 'mt-8' : 'mt-12'} pt-6 border-t border-[var(--border-gold)]/60 text-center text-xs text-[var(--text-muted)] flex flex-col sm:flex-row items-center justify-between gap-4 font-sans`}>
+      <div className="max-w-7xl mx-auto mt-12 pt-6 border-t border-[var(--border-gold)]/60 text-center text-xs text-[var(--text-muted)] flex flex-col sm:flex-row items-center justify-between gap-4 font-sans">
         <p>
           {isBrideSide
             ? "With Best Compliments from Sheoran Family & All Relatives"
