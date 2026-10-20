@@ -7,7 +7,7 @@ export default function LocationsSection({ t, sideData, isBrideSide }) {
   const groomExactAppleMapsUrl = "https://maps.apple.com/?q=Nandha+Ki+Dhani,+Badhra,+Haryana&ll=28.4552,75.8344";
 
   const brideExactGoogleMapsUrl = "https://www.google.com/maps?q=28.507679,75.865814";
-  const brideExactAppleMapsUrl = "https://maps.apple.com/?q=28.507679,75.865814&ll=28.507679,75.865814";
+  const brideExactAppleMapsUrl = "https://maps.apple.com/place?auid=3216818283696923002&address=Arya+Nagar%2C+Badhra%2C+Charkhi+Dadri%2C+127308%2C+Haryana%2C+India&coordinate=28.508183%2C75.864421&name=Arya+Nagar&lsp=6489";
 
   // Card 1: Bride's Perspective Aryanagar Card
   const BrideSideAryanagarCard = (
